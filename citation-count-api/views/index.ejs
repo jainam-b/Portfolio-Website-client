@@ -19,6 +19,7 @@
    <!-- Bootstrap cdn end  -->
    
    <link type="text/css" rel="stylesheet"  href="/public/style.css" >
+   <!-- <link rel="Academics" href=" views/homepage.html"> -->
 
   
 </head>
@@ -38,7 +39,7 @@
             <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Academics</a>
+            <a class="nav-link" href="/education">Academics</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -283,18 +284,23 @@
    <!-- Banner Starts -->
    <div class="banner">
     <img src=" /images/banner-4.jpg" class="rounded" alt="Banner Image" />
-    <div class="overlay container m-auto rounded text-white ">
-      <h1>Google Scholar Citations:</h1>
-      <h1> <%= citedByData %> </h1>
-       
-    </div>
+     <div class="overlay">
+     
+    <span class="number"><%= citedByData %></span>
+    <span class="number">37</span>
+    <span class="number">5</span>
   </div>
-  <div class="banner">
-    <div class="overlay">
-       
-    </div>
+</div>
+<div class="banner">
+  <div class="overlay">
+    <span class="word">GoogleScholar  </span>
+    <span class="word">SCOPUS </span>
+    <span class="word">PATENTS</span>
+  </div>
   </div>
 <!-- Banner ends -->
+
+ 
 
        <!-- INDISCON STARTS -->
        <div class=" container mt-4 ">

@@ -14,6 +14,9 @@ app.set("/views", path.join(__dirname, "views"));
 app.get("/education", function (req, res) {
   res.render("pages/education");
 });
+app.get("/conference", function (req, res) {
+  res.render("pages/conference");
+});
 
 // Serve static files from the "public" directory
 // app.use('/public', express.static(path.join(__dirname, 'public')));
